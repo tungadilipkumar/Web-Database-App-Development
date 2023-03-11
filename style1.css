@@ -1,0 +1,152 @@
+.container {
+    font-weight: 900;
+    font-size: 1em;
+    font-family: cursive;
+    height:100vh;
+    gap: 0.5em;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.3fr;
+    grid-template-areas:
+        "nav1"
+        "aboutme"
+        "myblogs"
+        "moreaboutme"
+        "pictures"
+        "researchpapers"
+        "experience";
+}
+  .im1{
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+  #ex-1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+  nav{
+    background-color: antiquewhite;
+    padding: 30px;
+    
+  }
+ .nav1{
+     margin-left: 100px;
+     text-align: center;
+
+ }
+.aboutme {
+    background-color: #fffde7;
+}
+.im1{
+    display:flex;
+}
+.myblogs {
+    background-color: #fbe9e7;
+    text-align: left;
+    padding: 8px;
+}
+ 
+  .align{
+    display:flex;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .moreaboutme{
+    padding: 50px;
+    background-color: blanchedalmond;
+}
+.pictures{
+    background-color: beige;
+    padding: 50px;
+    
+    
+}
+
+.experience{
+    background-color:navajowhite;
+}
+
+.researchpapers{
+       background-color: aliceblue;    
+
+}
+#l1{
+    margin-left: 50px;
+    background-color: cornsilk;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+#l2 {
+    margin-left: 50px;
+    background-color: cornsilk;
+    margin-right: 50px;
+}
+#l3 {
+    margin-left: 50px;
+    background-color: cornsilk;
+    margin-right: 50px;
+}
+#l4 {
+    margin-left: 50px;
+    background-color: cornsilk;
+    margin-right: 50px;
+}
+#l5 {
+    margin-left: 50px;
+    background-color: cornsilk;
+    margin-right: 50px;
+}
+#number6 {
+    margin-left: 50px;
+    background-color: cornsilk;
+    margin-right: 50px;
+}
+#number7 {
+    margin-left: 50px;
+    background-color: cornsilk;
+    margin-right: 50px;
+}
+#number8 {
+    margin-left: 50px;
+    background-color: cornsilk;
+    margin-right: 50px;
+}
+#ex-1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#ex-2{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#ex-3{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#ex-4{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#ex-5{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+@media only screen and (max-width:750px){
+    .container {
+        font-weight: 900;
+        font-size: 1em;
+        height: 100vh;
+        gap: 0.5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.3fr;
+        grid-template-areas:
+            "nav1"
+            "aboutme"
+            "myblogs"
+            "moreaboutme"
+            "pictures"
+            "researchpapers"
+            "experience";
+    } 
+}
